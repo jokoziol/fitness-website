@@ -1,0 +1,11 @@
+@media all and (max-width: 959px){
+    .container{
+        display: block;
+    }
+
+    .about,
+    .features,
+    .security{
+        margin: 30px;
+    }
+}

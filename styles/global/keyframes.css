@@ -1,0 +1,50 @@
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 0.8;
+    }
+}
+
+@keyframes neon-pulse{
+    0%{
+        opacity: 0.8;
+        box-shadow:
+            0 0 15px #FFFFFF,
+            0 0 40px #B22222,
+            0 0 70px #B22222,
+            0 0 80px #B22222,
+            0 0 100px #B22222,
+            0 0 150px #B22222;
+    }
+    50%{
+        opacity: 1;
+        box-shadow:
+            0 0 15px #FFFFFF,
+            0 0 40px #B22222,
+            0 0 70px #B22222,
+            0 0 80px #B22222,
+            0 0 100px #B22222,
+            0 0 150px #B22222;
+    }
+    100%{
+        opacity: 0.8;
+        box-shadow:
+            0 0 15px #FFFFFF,
+            0 0 40px #B22222,
+            0 0 70px #B22222,
+            0 0 80px #B22222,
+            0 0 100px #B22222,
+            0 0 150px #B22222;
+    }
+}
+
+@keyframes expand{
+    from{
+        max-height: 0;
+    }
+    to{
+        max-height: 1000px;
+    }
+}

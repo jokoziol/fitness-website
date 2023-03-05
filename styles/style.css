@@ -1,0 +1,40 @@
+@media all and (min-width: 960px){
+    .container{
+        display: flex;
+        width: 65%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .about{
+        padding-top: 40px;
+        width: 52.5%;
+        margin: auto;
+    }
+
+    .features,
+    .security{
+        width: 40%;
+        margin-top: 20px;
+    }
+}
+
+.features .title,
+.security .title,
+.about .title{
+    text-align: left;
+    font-size: 25pt;
+    margin-bottom: 15px;
+}
+
+.features ul,
+.security ul{
+    margin-top: 15px;
+}
+
+.features li,
+.security li,
+.about .content{
+    text-align: left;
+    font-size: 18pt;
+}

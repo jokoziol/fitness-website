@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="YorFiit is an fitness tracker, focused on security and privacy.">
+        <meta name="theme-color" content="#121212">
+
+        <title>YorFiit | Home</title>
+
+        <link rel="stylesheet" type="text/css" href="./styles/global/keyframes.css">
+        <link rel="stylesheet" type="text/css" href="./styles/global/style.css">
+        <link rel="stylesheet" type="text/css" href="./styles/global/style-mobile.css">
+
+        <link rel="stylesheet" type="text/css" href="./styles/style.css">
+        <link rel="stylesheet" type="text/css" href="./styles/style-mobile.css">
+    </head>
+    <body>
+        <div class="navigationBar no-select">
+            <a href="./index.html" class="navigationItem active">Home</a>
+            <a href="./faq/index.html" class="navigationItem">FAQ</a>
+            <a href="https://apps.apple.com/app/yorfiit/id1658278226" class="navigationItem">Download</a>
+            <a href="https://github.com/jokoziol/YorFiit" class="navigationItem">GitHub</a>
+        </div>
+        <div class="neon-animation"></div>
+
+        <div class="header no-select">
+            <p class="title">YorFiit</p>
+            <p class="content">Secure. Private. Fitness.</p>
+        </div>
+
+        <div class="container">
+            <div class="features">
+                <p class="title">Features</p>
+                <ul>
+                    <li>Automatically stop workouts by using geo-fencing</li>
+                    <li>Customizability of the app</li>
+                    <li>Synchronize with Apple Health</li>
+                </ul>
+            </div>
+
+            <div class="security">
+                <p class="title">Security</p>
+                <ul>
+                    <li>Elliptic Curve Integrated Encryption Scheme (ECIES)</li>
+                    <li>Private key is stored in the Secure Enclave</li>
+                    <li>Encryption of all content stored in the app</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="about">
+            <p class="title">About</p>
+            <p class="content">Security and privacy have a high priority. That's why everything is stored in encrypted form.<br>
+            The private key that is generated each time the app is re-installed or reset is stored in the in the Secure Enclave.
+            The Secure Enclave provides more hardware security because the chip is isolated from the main processor.
+            If the main processor has been compromised, the private key will not be released by the Secure Enclave.<br>
+            In addition, a passcode must have been added to unlock the device.
+            This additionally encrypts some data with the device passcode.
+            If the passcode is removed, all the data will be deleted.
+            </p>
+            <p class="content">The app offers over 20 workouts (e.g. cycling, hiking, boxing).
+            By using geo-fencing, areas can be saved where a workout should be end.
+            If you start a workout on your doorstep and want it to stop when you arrive at home, you can easily set this up through the app.<br>
+            It is also possible to set quick starts. This allows you to quickly start a workout without having to search for the workout beforehand.
+            </p>
+        </div>
+    </body>
+</html>
